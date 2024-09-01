@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    --color-yellow-: #FFD100;
+    --color-red:#941B0C;
+    --color-black:#000000;
+    --color-gray:#808080;
+    --color-white:#F3F3F3;
+    --color-white2:#FFFFFF;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 454px;
+    width: 760px;
+    background-color: var(--color-black);
+}
+.headerOne{
+    width: 350px;
+    height: 180px;
+} 
+.mainOne{
+    width: 290px;
+    height: 98px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+.big-text{
+    padding-left: 30px ;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
+.black-window{
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 0% 15% 15% 0% ;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-black);
+}
+.crossedOut{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    width: 220px;
+    height: 22px;
+    color: var(--color-gray);
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.footerOne{
+    display: flex;
+    text-align: end;
+  
+
+}
+.price{
+    font-family: "Rubik", sans-serif;
+    color: var(--color-red);
+    font-size: 43px;
+    width: 220px;
+    height: 52px;
+    font-weight: 500;
+}
+.small-text{
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    color: var(--color-gray);
+    font-weight: 400;
+    width: 290px;
+    padding-left: 30px ;
+    
+
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0% 2% 2% 0%;
+    height: 434px;
+    background-color: var(--color-white2);
+
+}
+.headerTwo{
+    width: 350px;
+    height: 180px;
+} 
+.mainTwo{
+    width: 290px;
+    height: 98px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+.big-text2{
+    font-family: "Rubik", sans-serif;
+    padding-left: 30px ;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+}
+.black-window2{
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 0% 15% 15% 0% ;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-black);
+}
+.crossedOut2{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    width: 220px;
+    height: 22px;
+    color: var(--color-gray);
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.footerTwo{
+    display: flex;
+    text-align: end;
+}
+
+
+.price2{
+    font-family: "Rubik", sans-serif;
+    color: var(--color-red);
+    font-size: 43px;
+    width: 220px;
+    height: 52px;
+    font-weight: 500;
+}
+.small-text2{
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    color: var(--color-gray);
+    font-weight: 400;
+    width: 290px;
+    padding-left: 30px ;
+    
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0% 2% 2% 0%;
+    height: 434px;
+    background-color: var(--color-yellow-);
+}
+.container > img{
+    position: absolute;
+    top:0px;
+    left: 377px;
+
+}
+
+
+
+
+
+
