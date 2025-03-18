@@ -24,6 +24,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	justify-content: center; 
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: black;
 	line-height: 1;
 }
 ol, ul {
